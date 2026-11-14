@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cloner-app-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/*/debug/*.apk
 
       - name: Save log to buildlog folder
         if: always()
@@ -65,3 +65,4 @@ jobs:
             echo "Build failed - see the log in the buildlog folder."
             exit 1
           fi
+          
