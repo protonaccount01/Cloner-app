@@ -1,0 +1,996 @@
+Build log - run #3
+Date (UTC): Sat Nov 14 07:22:23 UTC 2026
+Commit: 761f2a8eb71be458087bc5e2e51ece12b0a0469e
+Result: SUCCESS
+----------------------------------------
+Downloading https://services.gradle.org/distributions/gradle-7.3.3-all.zip
+.......................................................................................................................................................
+Unzipping /home/runner/.gradle/wrapper/dists/gradle-7.3.3-all/4295vidhdd9hd3gbjyw1xqxpo/gradle-7.3.3-all.zip to /home/runner/.gradle/wrapper/dists/gradle-7.3.3-all/4295vidhdd9hd3gbjyw1xqxpo
+Set executable permissions for: /home/runner/.gradle/wrapper/dists/gradle-7.3.3-all/4295vidhdd9hd3gbjyw1xqxpo/gradle-7.3.3/bin/gradle
+
+Welcome to Gradle 7.3.3!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.3/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :app
+useNewCruncher has been deprecated. It will be removed in a future version of the gradle plugin. New cruncher is now always enabled.
+
+> Configure project :Bcore
+useNewCruncher has been deprecated. It will be removed in a future version of the gradle plugin. New cruncher is now always enabled.
+This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Checking the license for package NDK (Side by side) 21.4.7075529 in /usr/local/lib/android/sdk/licenses
+License for package NDK (Side by side) 21.4.7075529 accepted.
+Preparing "Install NDK (Side by side) 21.4.7075529 (revision: 21.4.7075529)".
+"Install NDK (Side by side) 21.4.7075529 (revision: 21.4.7075529)" ready.
+Installing NDK (Side by side) 21.4.7075529 in /usr/local/lib/android/sdk/ndk/21.4.7075529
+"Install NDK (Side by side) 21.4.7075529 (revision: 21.4.7075529)" complete.
+"Install NDK (Side by side) 21.4.7075529 (revision: 21.4.7075529)" finished.
+Checking the license for package CMake 3.18.1 in /usr/local/lib/android/sdk/licenses
+License for package CMake 3.18.1 accepted.
+Preparing "Install CMake 3.18.1 (revision: 3.18.1)".
+"Install CMake 3.18.1 (revision: 3.18.1)" ready.
+Installing CMake 3.18.1 in /usr/local/lib/android/sdk/cmake/3.18.1
+"Install CMake 3.18.1 (revision: 3.18.1)" complete.
+"Install CMake 3.18.1 (revision: 3.18.1)" finished.
+
+> Configure project :Bcore:black-fake
+useNewCruncher has been deprecated. It will be removed in a future version of the gradle plugin. New cruncher is now always enabled.
+
+> Configure project :Bcore:black-hook
+useNewCruncher has been deprecated. It will be removed in a future version of the gradle plugin. New cruncher is now always enabled.
+
+> Configure project :Bcore:pine-core
+Checking the license for package NDK (Side by side) 23.1.7779620 in /usr/local/lib/android/sdk/licenses
+License for package NDK (Side by side) 23.1.7779620 accepted.
+Preparing "Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)".
+"Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" ready.
+Installing NDK (Side by side) 23.1.7779620 in /usr/local/lib/android/sdk/ndk/23.1.7779620
+"Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" complete.
+"Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" finished.
+Checking the license for package Android SDK Build-Tools 30.0.3 in /usr/local/lib/android/sdk/licenses
+License for package Android SDK Build-Tools 30.0.3 accepted.
+Preparing "Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)".
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" ready.
+Installing Android SDK Build-Tools 30.0.3 in /usr/local/lib/android/sdk/build-tools/30.0.3
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" complete.
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" finished.
+Checking the license for package Android SDK Platform 32 in /usr/local/lib/android/sdk/licenses
+License for package Android SDK Platform 32 accepted.
+Preparing "Install Android SDK Platform 32 (revision: 1)".
+"Install Android SDK Platform 32 (revision: 1)" ready.
+Installing Android SDK Platform 32 in /usr/local/lib/android/sdk/platforms/android-32
+"Install Android SDK Platform 32 (revision: 1)" complete.
+"Install Android SDK Platform 32 (revision: 1)" finished.
+Checking the license for package Android SDK Platform 30 in /usr/local/lib/android/sdk/licenses
+License for package Android SDK Platform 30 accepted.
+Preparing "Install Android SDK Platform 30 (revision: 3)".
+"Install Android SDK Platform 30 (revision: 3)" ready.
+Installing Android SDK Platform 30 in /usr/local/lib/android/sdk/platforms/android-30
+"Install Android SDK Platform 30 (revision: 3)" complete.
+"Install Android SDK Platform 30 (revision: 3)" finished.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preBlackBox32BetaDebugBuild UP-TO-DATE
+> Task :app:mergeBlackBox32BetaDebugNativeDebugMetadata NO-SOURCE
+> Task :android-mirror:preBuild UP-TO-DATE
+> Task :android-mirror:preDebugBuild UP-TO-DATE
+> Task :Bcore:black-fake:preBuild UP-TO-DATE
+> Task :Bcore:black-fake:preDebugBuild UP-TO-DATE
+> Task :Bcore:black-hook:preBuild UP-TO-DATE
+> Task :Bcore:black-hook:preDebugBuild UP-TO-DATE
+> Task :Bcore:black-hook:compileDebugAidl NO-SOURCE
+> Task :Bcore:black-fake:compileDebugAidl NO-SOURCE
+> Task :Bcore:preBuild UP-TO-DATE
+> Task :Bcore:preDebugBuild UP-TO-DATE
+> Task :Bcore:pine-core:preBuild UP-TO-DATE
+> Task :Bcore:pine-core:preDebugBuild UP-TO-DATE
+> Task :Bcore:pine-core:compileDebugAidl NO-SOURCE
+> Task :Bcore:pine-xposed:preBuild UP-TO-DATE
+> Task :Bcore:pine-xposed:preDebugBuild UP-TO-DATE
+> Task :Bcore:pine-xposed:compileDebugAidl NO-SOURCE
+> Task :Bcore:pine-xposed-res:preBuild UP-TO-DATE
+> Task :Bcore:pine-xposed-res:preDebugBuild UP-TO-DATE
+> Task :Bcore:packageDebugRenderscript NO-SOURCE
+> Task :app:compileBlackBox32BetaDebugRenderscript NO-SOURCE
+> Task :android-mirror:compileDebugAidl
+> Task :app:dataBindingMergeDependencyArtifactsBlackBox32BetaDebug
+> Task :app:dataBindingMergeGenClassesBlackBox32BetaDebug
+> Task :Bcore:black-fake:packageDebugRenderscript NO-SOURCE
+> Task :android-mirror:compileDebugRenderscript NO-SOURCE
+> Task :android-mirror:generateDebugResValues
+> Task :android-mirror:generateDebugResources
+> Task :android-mirror:packageDebugResources
+> Task :app:generateBlackBox32BetaDebugResValues
+> Task :app:generateBlackBox32BetaDebugResources
+> Task :android-mirror:packageDebugRenderscript NO-SOURCE
+> Task :Bcore:black-hook:packageDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-core:packageDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-xposed:packageDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-xposed-res:packageDebugRenderscript NO-SOURCE
+> Task :Bcore:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:generateDebugResValues
+> Task :Bcore:generateDebugResources
+> Task :Bcore:packageDebugResources
+> Task :Bcore:black-fake:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:black-fake:generateDebugResValues
+> Task :Bcore:black-fake:generateDebugResources
+> Task :Bcore:black-fake:packageDebugResources
+> Task :Bcore:black-hook:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:black-hook:generateDebugResValues
+> Task :Bcore:black-hook:generateDebugResources
+> Task :Bcore:black-hook:packageDebugResources
+> Task :Bcore:pine-core:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-core:generateDebugResValues
+> Task :Bcore:pine-xposed-res:compileDebugAidl NO-SOURCE
+> Task :Bcore:pine-core:generateDebugResources
+> Task :Bcore:pine-core:packageDebugResources
+> Task :Bcore:pine-xposed:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-xposed:generateDebugResValues
+> Task :Bcore:pine-xposed:generateDebugResources
+> Task :Bcore:pine-xposed:packageDebugResources
+> Task :Bcore:pine-xposed-res:compileDebugRenderscript NO-SOURCE
+> Task :Bcore:pine-xposed-res:generateDebugResValues
+> Task :Bcore:pine-xposed-res:generateDebugResources
+> Task :Bcore:pine-xposed-res:packageDebugResources
+> Task :Bcore:compileDebugAidl
+> Task :app:compileBlackBox32BetaDebugAidl NO-SOURCE
+> Task :app:generateBlackBox32BetaDebugBuildConfig
+
+> Task :app:mergeBlackBox32BetaDebugResources
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values/strings.xml:17:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rCN/strings.xml:11:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rTW/strings.xml:16:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+
+> Task :android-mirror:compileDebugLibraryResources
+> Task :app:dataBindingGenBaseClassesBlackBox32BetaDebug
+> Task :android-mirror:parseDebugLocalResources
+> Task :Bcore:black-fake:parseDebugLocalResources
+> Task :Bcore:black-hook:parseDebugLocalResources
+> Task :android-mirror:writeDebugAarMetadata
+> Task :Bcore:writeDebugAarMetadata
+> Task :Bcore:black-fake:writeDebugAarMetadata
+> Task :Bcore:black-hook:writeDebugAarMetadata
+> Task :Bcore:pine-core:writeDebugAarMetadata
+> Task :Bcore:pine-xposed:writeDebugAarMetadata
+> Task :Bcore:pine-xposed-res:writeDebugAarMetadata
+> Task :Bcore:black-hook:processDebugManifest
+> Task :android-mirror:processDebugManifest
+> Task :Bcore:black-fake:processDebugManifest
+> Task :app:checkBlackBox32BetaDebugAarMetadata
+> Task :app:mapBlackBox32BetaDebugSourceSetPaths
+> Task :app:createBlackBox32BetaDebugCompatibleScreenManifests
+> Task :android-mirror:extractDeepLinksDebug
+> Task :app:extractDeepLinksBlackBox32BetaDebug
+> Task :Bcore:extractDeepLinksDebug
+> Task :Bcore:black-fake:extractDeepLinksDebug
+> Task :Bcore:black-hook:extractDeepLinksDebug
+> Task :Bcore:pine-core:extractDeepLinksDebug
+> Task :Bcore:pine-xposed:extractDeepLinksDebug
+> Task :Bcore:pine-core:processDebugManifest
+> Task :Bcore:pine-xposed-res:extractDeepLinksDebug
+> Task :Bcore:pine-xposed:processDebugManifest
+> Task :Bcore:pine-xposed-res:processDebugManifest
+> Task :Bcore:compileDebugLibraryResources
+> Task :Bcore:black-hook:generateDebugRFile
+
+> Task :Bcore:processDebugManifest
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:75:5-85 Warning:
+	Element uses-permission#com.android.launcher.permission.READ_SETTINGS at AndroidManifest.xml:75:5-85 duplicated with element declared at AndroidManifest.xml:63:5-85
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:85:5-81 Warning:
+	Element uses-permission#com.htc.launcher.permission.READ_SETTINGS at AndroidManifest.xml:85:5-81 duplicated with element declared at AndroidManifest.xml:66:5-81
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:87:5-82 Warning:
+	Element uses-permission#com.oppo.launcher.permission.READ_SETTINGS at AndroidManifest.xml:87:5-82 duplicated with element declared at AndroidManifest.xml:59:5-82
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:91:5-92 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS at AndroidManifest.xml:91:5-92 duplicated with element declared at AndroidManifest.xml:73:5-92
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:92:5-91 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE at AndroidManifest.xml:92:5-91 duplicated with element declared at AndroidManifest.xml:72:5-91
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:99:5-65 Warning:
+	Element uses-permission#android.permission.CAMERA at AndroidManifest.xml:99:5-65 duplicated with element declared at AndroidManifest.xml:96:5-65
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:290:5-81 Warning:
+	Element uses-permission#android.permission.PROCESS_OUTGOING_CALLS at AndroidManifest.xml:290:5-81 duplicated with element declared at AndroidManifest.xml:281:5-81
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:292:5-69 Warning:
+	Element uses-permission#android.permission.CALL_PHONE at AndroidManifest.xml:292:5-69 duplicated with element declared at AndroidManifest.xml:279:5-69
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:310:5-312:47 Warning:
+	Element uses-permission#android.permission.GET_INTENT_SENDER_INTENT at AndroidManifest.xml:310:5-312:47 duplicated with element declared at AndroidManifest.xml:218:5-220:47
+/home/runner/work/Cloner-app/Cloner-app/Bcore/src/main/AndroidManifest.xml:328:5-78 Warning:
+	Element uses-permission#android.permission.PACKAGE_USAGE_STATS at AndroidManifest.xml:328:5-78 duplicated with element declared at AndroidManifest.xml:260:5-262:47
+
+> Task :Bcore:pine-core:parseDebugLocalResources
+> Task :Bcore:parseDebugLocalResources
+> Task :Bcore:black-fake:generateDebugRFile
+
+> Task :app:processBlackBox32BetaDebugMainManifest
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:5-85 Warning:
+	Element uses-permission#com.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:82:5-85 duplicated with element declared at [:Bcore] AndroidManifest.xml:70:5-85
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:92:5-81 Warning:
+	Element uses-permission#com.htc.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:92:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:73:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:94:5-82 Warning:
+	Element uses-permission#com.oppo.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:94:5-82 duplicated with element declared at [:Bcore] AndroidManifest.xml:66:5-82
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:98:5-92 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:98:5-92 duplicated with element declared at [:Bcore] AndroidManifest.xml:80:5-92
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:99:5-91 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE at [:Bcore] AndroidManifest.xml:99:5-91 duplicated with element declared at [:Bcore] AndroidManifest.xml:79:5-91
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:106:5-65 Warning:
+	Element uses-permission#android.permission.CAMERA at [:Bcore] AndroidManifest.xml:106:5-65 duplicated with element declared at [:Bcore] AndroidManifest.xml:103:5-65
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:301:5-81 Warning:
+	Element uses-permission#android.permission.PROCESS_OUTGOING_CALLS at [:Bcore] AndroidManifest.xml:301:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:291:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:303:5-69 Warning:
+	Element uses-permission#android.permission.CALL_PHONE at [:Bcore] AndroidManifest.xml:303:5-69 duplicated with element declared at [:Bcore] AndroidManifest.xml:289:5-69
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:318:5-320:47 Warning:
+	Element uses-permission#android.permission.GET_INTENT_SENDER_INTENT at [:Bcore] AndroidManifest.xml:318:5-320:47 duplicated with element declared at [:Bcore] AndroidManifest.xml:227:5-229:47
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:333:5-78 Warning:
+	Element uses-permission#android.permission.PACKAGE_USAGE_STATS at [:Bcore] AndroidManifest.xml:333:5-78 duplicated with element declared at [:Bcore] AndroidManifest.xml:270:5-272:47
+
+> Task :app:processBlackBox32BetaDebugManifest
+> Task :android-mirror:generateDebugRFile
+> Task :Bcore:pine-xposed:parseDebugLocalResources
+> Task :Bcore:black-fake:compileDebugLibraryResources
+> Task :Bcore:pine-xposed-res:parseDebugLocalResources
+> Task :Bcore:pine-core:generateDebugRFile
+> Task :Bcore:black-hook:compileDebugLibraryResources
+> Task :app:processBlackBox32BetaDebugManifestForPackage
+> Task :Bcore:pine-core:compileDebugLibraryResources
+> Task :Bcore:pine-xposed:compileDebugLibraryResources
+> Task :Bcore:pine-xposed-res:compileDebugLibraryResources
+> Task :android-mirror:generateDebugBuildConfig
+> Task :Bcore:black-fake:generateDebugBuildConfig
+> Task :Bcore:black-hook:generateDebugBuildConfig
+> Task :Bcore:black-hook:compileDebugKotlin NO-SOURCE
+> Task :Bcore:pine-xposed:generateDebugRFile
+> Task :Bcore:black-hook:javaPreCompileDebug
+> Task :Bcore:black-fake:javaPreCompileDebug
+> Task :Bcore:black-hook:compileDebugJavaWithJavac
+> Task :Bcore:black-hook:bundleLibCompileToJarDebug
+> Task :Bcore:pine-xposed-res:generateDebugRFile
+> Task :android-mirror:javaPreCompileDebug
+> Task :Bcore:generateDebugBuildConfig
+> Task :Bcore:pine-core:generateDebugBuildConfig
+> Task :Bcore:pine-core:compileDebugKotlin NO-SOURCE
+> Task :Bcore:black-fake:compileDebugKotlin NO-SOURCE
+
+> Task :Bcore:black-fake:compileDebugJavaWithJavac
+Note: /home/runner/work/Cloner-app/Cloner-app/Bcore/black-fake/src/main/java/android/app/ActivityThread.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :Bcore:black-fake:bundleLibCompileToJarDebug
+> Task :Bcore:pine-core:javaPreCompileDebug
+> Task :android-mirror:compileDebugKotlin NO-SOURCE
+> Task :Bcore:generateDebugRFile
+
+> Task :android-mirror:compileDebugJavaWithJavac
+The following annotation processors are not incremental: compiler-1.1.2.jar (com.github.CodingGay.BlackReflection:compiler:1.1.2).
+Make sure all annotation processors are incremental to improve your build speed.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :android-mirror:bundleLibCompileToJarDebug
+> Task :Bcore:pine-core:compileDebugJavaWithJavac
+> Task :Bcore:pine-core:bundleLibCompileToJarDebug
+> Task :Bcore:pine-xposed:generateDebugBuildConfig
+> Task :Bcore:pine-xposed:javaPreCompileDebug
+> Task :Bcore:pine-xposed-res:generateDebugBuildConfig
+> Task :Bcore:pine-xposed-res:javaPreCompileDebug
+> Task :Bcore:pine-xposed:compileDebugKotlin NO-SOURCE
+> Task :app:processBlackBox32BetaDebugResources
+
+> Task :Bcore:pine-xposed:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :Bcore:javaPreCompileDebug
+> Task :Bcore:pine-xposed:bundleLibCompileToJarDebug
+> Task :app:javaPreCompileBlackBox32BetaDebug
+> Task :android-mirror:mergeDebugShaders
+> Task :android-mirror:compileDebugShaders NO-SOURCE
+> Task :android-mirror:generateDebugAssets UP-TO-DATE
+> Task :android-mirror:packageDebugAssets
+> Task :Bcore:pine-xposed-res:compileDebugKotlin NO-SOURCE
+
+> Task :Bcore:pine-xposed-res:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :Bcore:pine-xposed-res:bundleLibCompileToJarDebug
+> Task :app:mergeBlackBox32BetaDebugShaders
+> Task :app:compileBlackBox32BetaDebugShaders NO-SOURCE
+> Task :app:generateBlackBox32BetaDebugAssets UP-TO-DATE
+> Task :Bcore:mergeDebugShaders
+> Task :Bcore:compileDebugShaders NO-SOURCE
+> Task :Bcore:generateDebugAssets UP-TO-DATE
+> Task :Bcore:packageDebugAssets
+> Task :Bcore:black-fake:mergeDebugShaders
+> Task :Bcore:black-fake:compileDebugShaders NO-SOURCE
+> Task :Bcore:black-fake:generateDebugAssets UP-TO-DATE
+> Task :Bcore:black-fake:packageDebugAssets
+> Task :Bcore:black-hook:mergeDebugShaders
+> Task :Bcore:black-hook:compileDebugShaders NO-SOURCE
+> Task :Bcore:black-hook:generateDebugAssets UP-TO-DATE
+> Task :Bcore:black-hook:packageDebugAssets
+> Task :Bcore:pine-core:mergeDebugShaders
+> Task :Bcore:pine-core:compileDebugShaders NO-SOURCE
+> Task :Bcore:pine-core:generateDebugAssets UP-TO-DATE
+> Task :Bcore:pine-core:packageDebugAssets
+> Task :Bcore:pine-xposed:mergeDebugShaders
+> Task :Bcore:pine-xposed:compileDebugShaders NO-SOURCE
+> Task :Bcore:pine-xposed:generateDebugAssets UP-TO-DATE
+> Task :Bcore:pine-xposed:packageDebugAssets
+> Task :Bcore:pine-xposed-res:mergeDebugShaders
+> Task :Bcore:pine-xposed-res:compileDebugShaders NO-SOURCE
+> Task :Bcore:pine-xposed-res:generateDebugAssets UP-TO-DATE
+> Task :Bcore:pine-xposed-res:packageDebugAssets
+> Task :app:mergeBlackBox32BetaDebugAssets
+> Task :android-mirror:processDebugJavaRes NO-SOURCE
+> Task :app:compressBlackBox32BetaDebugAssets
+> Task :app:processBlackBox32BetaDebugJavaRes NO-SOURCE
+> Task :Bcore:processDebugJavaRes NO-SOURCE
+> Task :Bcore:black-fake:processDebugJavaRes NO-SOURCE
+> Task :Bcore:black-fake:bundleLibResDebug NO-SOURCE
+> Task :Bcore:black-hook:processDebugJavaRes NO-SOURCE
+> Task :Bcore:black-hook:bundleLibResDebug NO-SOURCE
+> Task :Bcore:pine-core:processDebugJavaRes NO-SOURCE
+> Task :Bcore:pine-core:bundleLibResDebug NO-SOURCE
+> Task :Bcore:pine-xposed:processDebugJavaRes NO-SOURCE
+> Task :Bcore:pine-xposed:bundleLibResDebug NO-SOURCE
+> Task :Bcore:pine-xposed-res:processDebugJavaRes NO-SOURCE
+> Task :Bcore:pine-xposed-res:bundleLibResDebug NO-SOURCE
+> Task :android-mirror:bundleLibResDebug
+> Task :app:checkBlackBox32BetaDebugDuplicateClasses
+> Task :app:desugarBlackBox32BetaDebugFileDependencies
+> Task :Bcore:compileDebugKotlin
+> Task :app:mergeExtDexBlackBox32BetaDebug
+
+> Task :Bcore:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :Bcore:bundleLibResDebug
+> Task :Bcore:black-fake:bundleLibRuntimeToJarDebug
+> Task :Bcore:black-hook:bundleLibRuntimeToJarDebug
+> Task :Bcore:pine-core:bundleLibRuntimeToJarDebug
+> Task :Bcore:pine-xposed:bundleLibRuntimeToJarDebug
+> Task :Bcore:pine-xposed-res:bundleLibRuntimeToJarDebug
+> Task :Bcore:bundleLibCompileToJarDebug
+> Task :Bcore:bundleLibRuntimeToJarDebug
+> Task :android-mirror:bundleLibRuntimeToJarDebug
+> Task :android-mirror:mergeDebugJniLibFolders
+> Task :android-mirror:mergeDebugNativeLibs NO-SOURCE
+> Task :android-mirror:copyDebugJniLibsProjectOnly
+> Task :app:mergeBlackBox32BetaDebugJniLibFolders
+> Task :Bcore:configureCMakeDebug[arm64-v8a]
+> Task :Bcore:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeLibDexBlackBox32BetaDebug
+> Task :Bcore:configureCMakeDebug[armeabi-v7a]
+> Task :Bcore:buildCMakeDebug[armeabi-v7a]
+> Task :Bcore:black-fake:mergeDebugJniLibFolders
+> Task :Bcore:black-fake:mergeDebugNativeLibs NO-SOURCE
+> Task :Bcore:black-fake:copyDebugJniLibsProjectOnly
+> Task :Bcore:black-hook:mergeDebugJniLibFolders
+> Task :Bcore:black-hook:mergeDebugNativeLibs NO-SOURCE
+> Task :Bcore:black-hook:copyDebugJniLibsProjectOnly
+
+> Task :Bcore:pine-core:configureCMakeDebug[arm64-v8a]
+C/C++: debug|arm64-v8a :CMake Warning (dev) in CMakeLists.txt:
+C/C++: debug|arm64-v8a :  No project() command is present.  The top-level CMakeLists.txt file must
+C/C++: debug|arm64-v8a :  contain a literal, direct call to the project() command.  Add a line of
+C/C++: debug|arm64-v8a :  code such as
+C/C++: debug|arm64-v8a :    project(ProjectName)
+C/C++: debug|arm64-v8a :  near the top of the file, but after cmake_minimum_required().
+C/C++: debug|arm64-v8a :  CMake is pretending there is a "project(Project)" command on the first
+C/C++: debug|arm64-v8a :  line.
+C/C++: debug|arm64-v8a :This warning is for project developers.  Use -Wno-dev to suppress it.
+C/C++: debug|arm64-v8a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|arm64-v8a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|arm64-v8a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|arm64-v8a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|arm64-v8a :  CMake's built-in compiler identification.
+C/C++: debug|arm64-v8a :Call Stack (most recent call first):
+C/C++: debug|arm64-v8a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|arm64-v8a :  /usr/local/lib/android/sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)
+C/C++: debug|arm64-v8a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|arm64-v8a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|arm64-v8a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|arm64-v8a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|arm64-v8a :  CMake's built-in compiler identification.
+C/C++: debug|arm64-v8a :Call Stack (most recent call first):
+C/C++: debug|arm64-v8a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|arm64-v8a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++: debug|arm64-v8a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++: debug|arm64-v8a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|arm64-v8a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|arm64-v8a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|arm64-v8a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|arm64-v8a :  CMake's built-in compiler identification.
+C/C++: debug|arm64-v8a :Call Stack (most recent call first):
+C/C++: debug|arm64-v8a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|arm64-v8a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++: debug|arm64-v8a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+> Task :Bcore:pine-core:buildCMakeDebug[arm64-v8a][pine]
+C/C++: ninja: Entering directory `/home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/arm64-v8a'
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/jni_bridge.cpp:9:35: warning: unused parameter 'reserved' [-Wunused-parameter]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.h:11:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.cpp:90:43: warning: unused parameter 'handle' [-Wunused-parameter]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.cpp:123:72: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../utils/log.h:17:67: note: expanded from macro 'LOGE'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.h:10:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.h:11:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:13:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:54:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:13:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:70:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:99:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:20:32: warning: private field 'critical_section_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:21:21: warning: private field 'old_no_suspend_reason_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:16:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:54:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:16:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:70:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:21:23: warning: unused variable 'kArchArm' [-Wunused-const-variable]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:23:23: warning: unused variable 'kArchX86' [-Wunused-const-variable]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:8:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.cpp:5:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:54:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.cpp:5:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:70:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/art_method.cpp:6:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/well_known_classes.cpp:6:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:159:23: warning: comparison of integers of different signs: 'int' and 'const Elf_Off' (aka 'const unsigned long long') [-Wsign-compare]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:171:27: warning: comparison of integers of different signs: 'int' and 'const Elf_Off' (aka 'const unsigned long long') [-Wsign-compare]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:18:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/memory.cpp:46:56: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/log.h:14:67: note: expanded from macro 'LOGD'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:54:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:70:22: warning: format specifies type 'unsigned int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../utils/log.h:16:66: note: expanded from macro 'LOGW'
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/arm64.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+
+> Task :Bcore:pine-core:configureCMakeDebug[armeabi-v7a]
+C/C++: debug|armeabi-v7a :CMake Warning (dev) in CMakeLists.txt:
+C/C++: debug|armeabi-v7a :  No project() command is present.  The top-level CMakeLists.txt file must
+C/C++: debug|armeabi-v7a :  contain a literal, direct call to the project() command.  Add a line of
+C/C++: debug|armeabi-v7a :  code such as
+C/C++: debug|armeabi-v7a :    project(ProjectName)
+C/C++: debug|armeabi-v7a :  near the top of the file, but after cmake_minimum_required().
+C/C++: debug|armeabi-v7a :  CMake is pretending there is a "project(Project)" command on the first
+C/C++: debug|armeabi-v7a :  line.
+C/C++: debug|armeabi-v7a :This warning is for project developers.  Use -Wno-dev to suppress it.
+C/C++: debug|armeabi-v7a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|armeabi-v7a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|armeabi-v7a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|armeabi-v7a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|armeabi-v7a :  CMake's built-in compiler identification.
+C/C++: debug|armeabi-v7a :Call Stack (most recent call first):
+C/C++: debug|armeabi-v7a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|armeabi-v7a :  /usr/local/lib/android/sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)
+C/C++: debug|armeabi-v7a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|armeabi-v7a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|armeabi-v7a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|armeabi-v7a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|armeabi-v7a :  CMake's built-in compiler identification.
+C/C++: debug|armeabi-v7a :Call Stack (most recent call first):
+C/C++: debug|armeabi-v7a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|armeabi-v7a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++: debug|armeabi-v7a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++: debug|armeabi-v7a :CMake Warning at /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+C/C++: debug|armeabi-v7a :  An old version of CMake is being used that cannot automatically detect
+C/C++: debug|armeabi-v7a :  compiler attributes.  Compiler identification is being bypassed.  Some
+C/C++: debug|armeabi-v7a :  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+C/C++: debug|armeabi-v7a :  CMake's built-in compiler identification.
+C/C++: debug|armeabi-v7a :Call Stack (most recent call first):
+C/C++: debug|armeabi-v7a :  /usr/local/lib/android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+C/C++: debug|armeabi-v7a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++: debug|armeabi-v7a :  /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+> Task :Bcore:pine-core:buildCMakeDebug[armeabi-v7a][pine]
+C/C++: ninja: Entering directory `/home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/.cxx/Debug/6l2f675o/armeabi-v7a'
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/jni_bridge.cpp:9:35: warning: unused parameter 'reserved' [-Wunused-parameter]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.h:11:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.cpp:90:43: warning: unused parameter 'handle' [-Wunused-parameter]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/jit.h:10:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/thread.h:11:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:16:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:337:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:22:23: warning: unused variable 'kArchArm64' [-Wunused-const-variable]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:23:23: warning: unused variable 'kArchX86' [-Wunused-const-variable]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/pine.cpp:8:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:159:23: warning: comparison of integers of different signs: 'int' and 'const Elf_Off' (aka 'const unsigned int') [-Wsign-compare]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:171:27: warning: comparison of integers of different signs: 'int' and 'const Elf_Off' (aka 'const unsigned int') [-Wsign-compare]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/elf_img.cpp:18:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/art_method.cpp:6:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.cpp:5:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/../art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: clang: warning: argument unused during compilation: '-arch armv7' [-Wunused-command-line-argument]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/well_known_classes.cpp:6:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/utils/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:13:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:99:9: warning: unknown pragma ignored [-Wunknown-pragmas]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/android.cpp:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:20:32: warning: private field 'critical_section_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/art/../android.h:21:21: warning: private field 'old_no_suspend_reason_' is not used [-Wunused-private-field]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/thumb2.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/thumb2.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:29:50: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:32:73: warning: field 'kSkipBytes' will be initialized after field 'kReplacementModeOnly' [-Wreorder-ctor]
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/thumb2.cpp:5:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/thumb2.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../trampoline_installer.h:9:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/art_method.h:13:
+C/C++: In file included from /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../android.h:9:
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../art/gc_defs.h:11:15: warning: private field 'self_' is not used [-Wunused-private-field]
+C/C++: /home/runner/work/Cloner-app/Cloner-app/Bcore/pine-core/src/main/cpp/trampoline/arch/../../art/../art/gc_defs.h:12:21: warning: private field 'section_name_' is not used [-Wunused-private-field]
+
+> Task :Bcore:pine-core:externalNativeBuildDebug
+> Task :Bcore:pine-core:mergeDebugJniLibFolders
+> Task :Bcore:pine-xposed:mergeDebugJniLibFolders
+> Task :Bcore:pine-xposed:mergeDebugNativeLibs NO-SOURCE
+> Task :Bcore:pine-xposed:copyDebugJniLibsProjectOnly
+> Task :Bcore:pine-xposed-res:mergeDebugJniLibFolders
+> Task :Bcore:pine-xposed-res:mergeDebugNativeLibs NO-SOURCE
+> Task :Bcore:pine-core:mergeDebugNativeLibs
+> Task :Bcore:pine-xposed-res:copyDebugJniLibsProjectOnly
+> Task :Bcore:mergeDebugJniLibFolders
+> Task :Bcore:pine-core:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningBlackBox32BetaDebug
+> Task :app:writeBlackBox32BetaDebugAppMetadata
+> Task :app:writeBlackBox32BetaDebugSigningConfigVersions
+> Task :app:preBlackBox32DebugBuild UP-TO-DATE
+> Task :app:mergeBlackBox32DebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileBlackBox32DebugAidl NO-SOURCE
+> Task :app:compileBlackBox32DebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsBlackBox32Debug
+> Task :Bcore:externalNativeBuildDebug
+> Task :app:dataBindingMergeGenClassesBlackBox32Debug
+> Task :app:generateBlackBox32DebugResValues
+> Task :app:generateBlackBox32DebugResources
+> Task :Bcore:mergeDebugNativeLibs
+> Task :Bcore:copyDebugJniLibsProjectOnly
+
+> Task :app:mergeBlackBox32DebugResources
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values/strings.xml:17:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rCN/strings.xml:11:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rTW/strings.xml:16:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+
+> Task :app:generateBlackBox32DebugBuildConfig
+> Task :app:checkBlackBox32DebugAarMetadata
+> Task :app:createBlackBox32DebugCompatibleScreenManifests
+> Task :app:mergeBlackBox32BetaDebugNativeLibs
+> Task :app:extractDeepLinksBlackBox32Debug
+> Task :app:stripBlackBox32BetaDebugDebugSymbols
+
+> Task :app:processBlackBox32DebugMainManifest
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:5-85 Warning:
+	Element uses-permission#com.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:82:5-85 duplicated with element declared at [:Bcore] AndroidManifest.xml:70:5-85
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:92:5-81 Warning:
+	Element uses-permission#com.htc.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:92:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:73:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:94:5-82 Warning:
+	Element uses-permission#com.oppo.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:94:5-82 duplicated with element declared at [:Bcore] AndroidManifest.xml:66:5-82
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:98:5-92 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:98:5-92 duplicated with element declared at [:Bcore] AndroidManifest.xml:80:5-92
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:99:5-91 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE at [:Bcore] AndroidManifest.xml:99:5-91 duplicated with element declared at [:Bcore] AndroidManifest.xml:79:5-91
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:106:5-65 Warning:
+	Element uses-permission#android.permission.CAMERA at [:Bcore] AndroidManifest.xml:106:5-65 duplicated with element declared at [:Bcore] AndroidManifest.xml:103:5-65
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:301:5-81 Warning:
+	Element uses-permission#android.permission.PROCESS_OUTGOING_CALLS at [:Bcore] AndroidManifest.xml:301:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:291:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:303:5-69 Warning:
+	Element uses-permission#android.permission.CALL_PHONE at [:Bcore] AndroidManifest.xml:303:5-69 duplicated with element declared at [:Bcore] AndroidManifest.xml:289:5-69
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:318:5-320:47 Warning:
+	Element uses-permission#android.permission.GET_INTENT_SENDER_INTENT at [:Bcore] AndroidManifest.xml:318:5-320:47 duplicated with element declared at [:Bcore] AndroidManifest.xml:227:5-229:47
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:333:5-78 Warning:
+	Element uses-permission#android.permission.PACKAGE_USAGE_STATS at [:Bcore] AndroidManifest.xml:333:5-78 duplicated with element declared at [:Bcore] AndroidManifest.xml:270:5-272:47
+
+> Task :app:dataBindingGenBaseClassesBlackBox32Debug
+> Task :app:mapBlackBox32DebugSourceSetPaths
+> Task :app:processBlackBox32DebugManifest
+> Task :app:javaPreCompileBlackBox32Debug
+> Task :app:mergeBlackBox32DebugShaders
+> Task :app:compileBlackBox32DebugShaders NO-SOURCE
+> Task :app:generateBlackBox32DebugAssets UP-TO-DATE
+> Task :app:mergeBlackBox32DebugAssets
+> Task :app:compressBlackBox32DebugAssets
+> Task :app:processBlackBox32DebugJavaRes NO-SOURCE
+> Task :app:desugarBlackBox32DebugFileDependencies
+> Task :app:processBlackBox32DebugManifestForPackage
+> Task :app:checkBlackBox32DebugDuplicateClasses
+> Task :app:processBlackBox32DebugResources
+> Task :app:mergeLibDexBlackBox32Debug
+> Task :app:mergeBlackBox32DebugJniLibFolders
+> Task :app:mergeBlackBox32DebugNativeLibs
+> Task :app:mergeExtDexBlackBox32Debug
+> Task :app:stripBlackBox32DebugDebugSymbols
+> Task :app:validateSigningBlackBox32Debug
+> Task :app:writeBlackBox32DebugAppMetadata
+> Task :app:writeBlackBox32DebugSigningConfigVersions
+> Task :app:preBlackBox64BetaDebugBuild UP-TO-DATE
+> Task :app:mergeBlackBox64BetaDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileBlackBox64BetaDebugAidl NO-SOURCE
+> Task :app:compileBlackBox64BetaDebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeGenClassesBlackBox64BetaDebug
+> Task :app:dataBindingMergeDependencyArtifactsBlackBox64BetaDebug
+> Task :app:generateBlackBox64BetaDebugResValues
+> Task :app:generateBlackBox64BetaDebugResources
+
+> Task :app:compileBlackBox32BetaDebugKotlin
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/app/AppManager.kt: (37, 34): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/biz/cache/AppSharedPreferenceDelegate.kt: (45, 27): Unchecked cast: Any to Data
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (103, 33): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (105, 28): 'getSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (107, 36): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (108, 36): 'getter for height: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 35): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 50): 'getRealMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (216, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (225, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (233, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (242, 34): 'inKeyguardRestrictedInputMode(): Boolean' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (246, 28): Variable 'c' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (247, 25): Variable 'obj' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (248, 29): Variable 'field' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (249, 17): Variable 'x' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (255, 17): Unsafe use of a nullable receiver of type Any?
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (284, 37): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (287, 21): 'getRealSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/ShortcutUtil.kt: (80, 13): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/apps/AppsFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (16, 35): Unchecked cast: GmsViewModel to T
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/list/ListFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (120, 21): Variable 'packageInfo' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (127, 20): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/MainActivity.kt: (155, 19): Unnecessary safe call on a non-null receiver of type MenuItem
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpActivity.kt: (74, 41): Parameter 'view' is never used, could be renamed to _
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+
+> Task :app:mergeBlackBox64BetaDebugResources
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values/strings.xml:17:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rCN/strings.xml:11:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rTW/strings.xml:16:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+
+> Task :app:compileBlackBox32BetaDebugJavaWithJavac
+> Task :app:mergeBlackBox32BetaDebugJavaResource
+> Task :app:dexBuilderBlackBox32BetaDebug
+> Task :app:dataBindingGenBaseClassesBlackBox64BetaDebug
+> Task :app:generateBlackBox64BetaDebugBuildConfig
+> Task :app:checkBlackBox64BetaDebugAarMetadata
+> Task :app:mapBlackBox64BetaDebugSourceSetPaths
+> Task :app:createBlackBox64BetaDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksBlackBox64BetaDebug
+> Task :app:mergeProjectDexBlackBox32BetaDebug
+
+> Task :app:processBlackBox64BetaDebugMainManifest
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:5-85 Warning:
+	Element uses-permission#com.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:82:5-85 duplicated with element declared at [:Bcore] AndroidManifest.xml:70:5-85
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:92:5-81 Warning:
+	Element uses-permission#com.htc.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:92:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:73:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:94:5-82 Warning:
+	Element uses-permission#com.oppo.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:94:5-82 duplicated with element declared at [:Bcore] AndroidManifest.xml:66:5-82
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:98:5-92 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:98:5-92 duplicated with element declared at [:Bcore] AndroidManifest.xml:80:5-92
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:99:5-91 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE at [:Bcore] AndroidManifest.xml:99:5-91 duplicated with element declared at [:Bcore] AndroidManifest.xml:79:5-91
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:106:5-65 Warning:
+	Element uses-permission#android.permission.CAMERA at [:Bcore] AndroidManifest.xml:106:5-65 duplicated with element declared at [:Bcore] AndroidManifest.xml:103:5-65
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:301:5-81 Warning:
+	Element uses-permission#android.permission.PROCESS_OUTGOING_CALLS at [:Bcore] AndroidManifest.xml:301:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:291:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:303:5-69 Warning:
+	Element uses-permission#android.permission.CALL_PHONE at [:Bcore] AndroidManifest.xml:303:5-69 duplicated with element declared at [:Bcore] AndroidManifest.xml:289:5-69
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:318:5-320:47 Warning:
+	Element uses-permission#android.permission.GET_INTENT_SENDER_INTENT at [:Bcore] AndroidManifest.xml:318:5-320:47 duplicated with element declared at [:Bcore] AndroidManifest.xml:227:5-229:47
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:333:5-78 Warning:
+	Element uses-permission#android.permission.PACKAGE_USAGE_STATS at [:Bcore] AndroidManifest.xml:333:5-78 duplicated with element declared at [:Bcore] AndroidManifest.xml:270:5-272:47
+
+> Task :app:processBlackBox64BetaDebugManifest
+> Task :app:javaPreCompileBlackBox64BetaDebug
+> Task :app:mergeBlackBox64BetaDebugShaders
+> Task :app:compileBlackBox64BetaDebugShaders NO-SOURCE
+> Task :app:generateBlackBox64BetaDebugAssets UP-TO-DATE
+> Task :app:mergeBlackBox64BetaDebugAssets
+> Task :app:compressBlackBox64BetaDebugAssets
+> Task :app:processBlackBox64BetaDebugJavaRes NO-SOURCE
+> Task :app:processBlackBox64BetaDebugManifestForPackage
+> Task :app:checkBlackBox64BetaDebugDuplicateClasses
+> Task :app:desugarBlackBox64BetaDebugFileDependencies
+> Task :app:packageBlackBox32BetaDebug
+> Task :app:createBlackBox32BetaDebugApkListingFileRedirect
+> Task :app:assembleBlackBox32BetaDebug
+> Task :app:processBlackBox64BetaDebugResources
+> Task :app:mergeLibDexBlackBox64BetaDebug
+> Task :app:mergeBlackBox64BetaDebugJniLibFolders
+> Task :app:mergeBlackBox64BetaDebugNativeLibs
+> Task :app:mergeExtDexBlackBox64BetaDebug
+> Task :app:stripBlackBox64BetaDebugDebugSymbols
+> Task :app:validateSigningBlackBox64BetaDebug
+> Task :app:writeBlackBox64BetaDebugAppMetadata
+> Task :app:writeBlackBox64BetaDebugSigningConfigVersions
+> Task :app:preBlackBox64DebugBuild UP-TO-DATE
+> Task :app:mergeBlackBox64DebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileBlackBox64DebugAidl NO-SOURCE
+> Task :app:compileBlackBox64DebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsBlackBox64Debug
+> Task :app:dataBindingMergeGenClassesBlackBox64Debug
+> Task :app:generateBlackBox64DebugResValues
+> Task :app:generateBlackBox64DebugResources
+
+> Task :app:compileBlackBox32DebugKotlin
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/app/AppManager.kt: (37, 34): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/biz/cache/AppSharedPreferenceDelegate.kt: (45, 27): Unchecked cast: Any to Data
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (103, 33): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (105, 28): 'getSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (107, 36): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (108, 36): 'getter for height: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 35): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 50): 'getRealMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (216, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (225, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (233, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (242, 34): 'inKeyguardRestrictedInputMode(): Boolean' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (246, 28): Variable 'c' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (247, 25): Variable 'obj' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (248, 29): Variable 'field' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (249, 17): Variable 'x' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (255, 17): Unsafe use of a nullable receiver of type Any?
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (284, 37): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (287, 21): 'getRealSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/ShortcutUtil.kt: (80, 13): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/apps/AppsFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (16, 35): Unchecked cast: GmsViewModel to T
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/list/ListFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (120, 21): Variable 'packageInfo' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (127, 20): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/MainActivity.kt: (155, 19): Unnecessary safe call on a non-null receiver of type MenuItem
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpActivity.kt: (74, 41): Parameter 'view' is never used, could be renamed to _
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+
+> Task :app:mergeBlackBox64DebugResources
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values/strings.xml:17:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rCN/strings.xml:11:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+/home/runner/work/Cloner-app/Cloner-app/app/src/main/res/values-zh-rTW/strings.xml:16:4: Multiple substitutions specified in non-positional format of string resource string/set_location. Did you mean to add the formatted="false" attribute?
+
+> Task :app:compileBlackBox32DebugJavaWithJavac
+> Task :app:mergeBlackBox32DebugJavaResource
+> Task :app:dexBuilderBlackBox32Debug
+> Task :app:dataBindingGenBaseClassesBlackBox64Debug
+> Task :app:generateBlackBox64DebugBuildConfig
+> Task :app:checkBlackBox64DebugAarMetadata
+> Task :app:mapBlackBox64DebugSourceSetPaths
+> Task :app:createBlackBox64DebugCompatibleScreenManifests
+> Task :app:extractDeepLinksBlackBox64Debug
+
+> Task :app:processBlackBox64DebugMainManifest
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:5-85 Warning:
+	Element uses-permission#com.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:82:5-85 duplicated with element declared at [:Bcore] AndroidManifest.xml:70:5-85
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:92:5-81 Warning:
+	Element uses-permission#com.htc.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:92:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:73:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:94:5-82 Warning:
+	Element uses-permission#com.oppo.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:94:5-82 duplicated with element declared at [:Bcore] AndroidManifest.xml:66:5-82
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:98:5-92 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS at [:Bcore] AndroidManifest.xml:98:5-92 duplicated with element declared at [:Bcore] AndroidManifest.xml:80:5-92
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:99:5-91 Warning:
+	Element uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE at [:Bcore] AndroidManifest.xml:99:5-91 duplicated with element declared at [:Bcore] AndroidManifest.xml:79:5-91
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:106:5-65 Warning:
+	Element uses-permission#android.permission.CAMERA at [:Bcore] AndroidManifest.xml:106:5-65 duplicated with element declared at [:Bcore] AndroidManifest.xml:103:5-65
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:301:5-81 Warning:
+	Element uses-permission#android.permission.PROCESS_OUTGOING_CALLS at [:Bcore] AndroidManifest.xml:301:5-81 duplicated with element declared at [:Bcore] AndroidManifest.xml:291:5-81
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:303:5-69 Warning:
+	Element uses-permission#android.permission.CALL_PHONE at [:Bcore] AndroidManifest.xml:303:5-69 duplicated with element declared at [:Bcore] AndroidManifest.xml:289:5-69
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:318:5-320:47 Warning:
+	Element uses-permission#android.permission.GET_INTENT_SENDER_INTENT at [:Bcore] AndroidManifest.xml:318:5-320:47 duplicated with element declared at [:Bcore] AndroidManifest.xml:227:5-229:47
+[:Bcore] /home/runner/work/Cloner-app/Cloner-app/Bcore/build/intermediates/merged_manifest/debug/AndroidManifest.xml:333:5-78 Warning:
+	Element uses-permission#android.permission.PACKAGE_USAGE_STATS at [:Bcore] AndroidManifest.xml:333:5-78 duplicated with element declared at [:Bcore] AndroidManifest.xml:270:5-272:47
+
+> Task :app:processBlackBox64DebugManifest
+> Task :app:javaPreCompileBlackBox64Debug
+> Task :app:mergeBlackBox64DebugShaders
+> Task :app:compileBlackBox64DebugShaders NO-SOURCE
+> Task :app:generateBlackBox64DebugAssets UP-TO-DATE
+> Task :app:mergeBlackBox64DebugAssets
+> Task :app:compressBlackBox64DebugAssets
+> Task :app:processBlackBox64DebugManifestForPackage
+> Task :app:processBlackBox64DebugJavaRes NO-SOURCE
+> Task :app:checkBlackBox64DebugDuplicateClasses
+> Task :app:mergeProjectDexBlackBox32Debug
+> Task :app:desugarBlackBox64DebugFileDependencies
+> Task :app:packageBlackBox32Debug
+> Task :app:createBlackBox32DebugApkListingFileRedirect
+> Task :app:assembleBlackBox32Debug
+> Task :app:processBlackBox64DebugResources
+> Task :app:mergeLibDexBlackBox64Debug
+> Task :app:mergeBlackBox64DebugJniLibFolders
+
+> Task :app:compileBlackBox64BetaDebugKotlin
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/app/AppManager.kt: (37, 34): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/biz/cache/AppSharedPreferenceDelegate.kt: (45, 27): Unchecked cast: Any to Data
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (103, 33): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (105, 28): 'getSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (107, 36): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (108, 36): 'getter for height: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 35): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 50): 'getRealMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (216, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (225, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (233, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (242, 34): 'inKeyguardRestrictedInputMode(): Boolean' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (246, 28): Variable 'c' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (247, 25): Variable 'obj' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (248, 29): Variable 'field' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (249, 17): Variable 'x' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (255, 17): Unsafe use of a nullable receiver of type Any?
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (284, 37): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (287, 21): 'getRealSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/ShortcutUtil.kt: (80, 13): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/apps/AppsFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (16, 35): Unchecked cast: GmsViewModel to T
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/list/ListFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (120, 21): Variable 'packageInfo' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (127, 20): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/MainActivity.kt: (155, 19): Unnecessary safe call on a non-null receiver of type MenuItem
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpActivity.kt: (74, 41): Parameter 'view' is never used, could be renamed to _
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+
+> Task :app:mergeBlackBox64DebugNativeLibs
+> Task :app:stripBlackBox64DebugDebugSymbols
+> Task :app:mergeExtDexBlackBox64Debug
+> Task :app:compileBlackBox64BetaDebugJavaWithJavac
+> Task :app:mergeBlackBox64BetaDebugJavaResource
+> Task :app:dexBuilderBlackBox64BetaDebug
+> Task :app:validateSigningBlackBox64Debug
+> Task :app:writeBlackBox64DebugAppMetadata
+> Task :app:writeBlackBox64DebugSigningConfigVersions
+> Task :app:mergeProjectDexBlackBox64BetaDebug
+> Task :app:packageBlackBox64BetaDebug
+> Task :app:createBlackBox64BetaDebugApkListingFileRedirect
+> Task :app:assembleBlackBox64BetaDebug
+
+> Task :app:compileBlackBox64DebugKotlin
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/app/AppManager.kt: (37, 34): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/biz/cache/AppSharedPreferenceDelegate.kt: (45, 27): Unchecked cast: Any to Data
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (103, 33): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (105, 28): 'getSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (107, 36): 'getter for width: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (108, 36): 'getter for height: Int' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 35): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (160, 50): 'getRealMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (216, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (225, 12): Unnecessary safe call on a non-null receiver of type InputMethodManager
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (233, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (242, 34): 'inKeyguardRestrictedInputMode(): Boolean' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (246, 28): Variable 'c' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (247, 25): Variable 'obj' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (248, 29): Variable 'field' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (249, 17): Variable 'x' initializer is redundant
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (255, 17): Unsafe use of a nullable receiver of type Any?
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (284, 37): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/Resolution.kt: (287, 21): 'getRealSize(Point!): Unit' is deprecated. Deprecated in Java
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/util/ShortcutUtil.kt: (80, 13): 'neutralButton(Int? = ..., CharSequence? = ..., DialogCallback? /* = ((MaterialDialog) -> Unit)? */ = ...): MaterialDialog' is deprecated. Use of neutral buttons is discouraged, see https://material.io/design/components/dialogs.html#actions.
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/apps/AppsFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/gms/GmsFactory.kt: (16, 35): Unchecked cast: GmsViewModel to T
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/list/ListFactory.kt: (16, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (120, 21): Variable 'packageInfo' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/BlackBoxLoader.kt: (127, 20): Parameter 'context' is never used
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/main/MainActivity.kt: (155, 19): Unnecessary safe call on a non-null receiver of type MenuItem
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpActivity.kt: (74, 41): Parameter 'view' is never used, could be renamed to _
+w: /home/runner/work/Cloner-app/Cloner-app/app/src/main/java/top/niunaijun/blackboxa/view/xp/XpFactory.kt: (15, 5): Type parameter 'T' has nullable upper bound, so override has incorrect signature comparing with a base member with NotNull annotation. Please add a non-nullable upper bound (e.g. Any) to the type parameter. See https://kotlinlang.org/docs/generics.html#upper-bounds for more details
+
+> Task :app:compileBlackBox64DebugJavaWithJavac
+> Task :app:mergeBlackBox64DebugJavaResource
+> Task :app:dexBuilderBlackBox64Debug
+> Task :app:mergeProjectDexBlackBox64Debug
+> Task :app:packageBlackBox64Debug
+> Task :app:createBlackBox64DebugApkListingFileRedirect
+> Task :app:assembleBlackBox64Debug
+> Task :app:assembleDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3m 29s
+276 actionable tasks: 276 executed
