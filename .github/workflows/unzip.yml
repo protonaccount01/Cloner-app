@@ -1,0 +1,41 @@
+name: Unzip into repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      zip_name:
+        description: 'Zip file name in repo root (e.g. main.zip)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Check zip exists
+        run: |
+          if [ ! -f "${{ inputs.zip_name }}" ]; then
+            echo "Zip file not found: ${{ inputs.zip_name }}"
+            exit 1
+          fi
+
+      - name: Unzip into repo root
+        run: |
+          unzip -o "${{ inputs.zip_name }}" -d .
+          rm "${{ inputs.zip_name }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Unzip ${{ inputs.zip_name }} into repo" || echo "Nothing to commit"
+          git push
